@@ -1,0 +1,34 @@
+.fromContainer{
+    display: flex;
+    flex-direction: row;
+    & div{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0.2rem;
+        padding: 0.5rem;
+        width: max-content;
+        border-radius: 0.3rem;
+        & input {
+            border: none;
+            height: 2rem;
+            margin: 0.3rem 0;
+        }
+    }
+    & button {
+        height: inherit;
+        width: 5rem;
+        background-color: rgb(12, 180, 247);
+        border: none;
+        border-radius: 1rem;
+        margin: 0 0.7rem;
+        font-size: large;
+        font-weight: 600;
+        color: white;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+    

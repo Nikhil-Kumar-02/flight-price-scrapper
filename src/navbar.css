@@ -1,0 +1,14 @@
+.navbar_container{
+    background-color: grey;
+}
+.login_icon_bar{
+    display: flex;
+    justify-content: space-between;
+    & img:hover{
+        cursor: pointer;
+    }
+    & img{
+
+    }
+    
+}
